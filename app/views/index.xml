@@ -8,41 +8,13 @@
 				<Button onClick="addXY">Add</Button>
 			</RightNavButton>
 			<View id="mapView" module="ti.map"/>
-			<TableView id="deviceTable" onClick="openDetail">
-				<TableViewRow>
-					<ImageView class="statusImage">
-						<Label>MK</Label>
-					</ImageView>
-					<View backgroundColor="transparent" left="80" right="0" layout="vertical">
-						<Label class="beaconTitle">Michael's Main Keys</Label>
-						<Label class="beaconStatus">Last seen 3 minutes ago.</Label>
-					</View>
-				</TableViewRow>
-				<TableViewRow >
-					<ImageView class="statusImage">
-						<Label>WK</Label>
-					</ImageView>
-					<View backgroundColor="transparent" left="80" right="0" layout="vertical">
-						<Label class="beaconTitle">Michael's Work Keys</Label>
-						<Label class="beaconStatus">Last seen 35 minutes ago.</Label>
-					</View>
-				</TableViewRow>
-				<TableViewRow>
-					<ImageView class="statusImage">
-						<Label>P</Label>
-					</ImageView>
-					<View backgroundColor="transparent" left="80" right="0" layout="vertical">
-						<Label class="beaconTitle">Megan's Purse</Label>
-						<Label class="beaconStatus">Last seen 1 minute ago.</Label>
-					</View>
-				</TableViewRow>
-			</TableView>
+			<TableView id="deviceTable" onClick="openDetail"/>
 			<Toolbar id="toolBar" platform="ios">
 				<Button id="ping">Ping XY</Button>
-                <FlexSpace/>
-                <Button id="notifyme">Notify Me</Button>
-                <FlexSpace/>
-                <FlexSpace/>
+                		<FlexSpace/>
+                		<Button id="notifyme">Notify Me</Button>
+                		<FlexSpace/>
+                		<FlexSpace/>
 			</Toolbar>
 		</Window>
 	</NavigationWindow>
