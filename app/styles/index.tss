@@ -1,0 +1,62 @@
+"#mapView": {
+	"height": Ti.UI.FILL,
+	"left": 0,
+	"top": 0,
+	"userLocation": true,
+	"width": Ti.UI.FILL
+
+}
+
+".statusImage": {
+	image: "/images/profile-circle.png",
+	height: 40,
+	left: 15,
+	width: 40
+}
+
+".beaconStatus": {
+	"backgroundColor": "transparent",
+	"color": "#a6a5a3",
+	"left":0,
+	"top": 0
+}
+
+".beaconTitle": {
+	"backgroundColor": "transparent",
+	"left":0,
+	"top": 10
+}
+
+"NavigationWindow": {
+	"barColor": "#F5F4F0",
+	"tintColor": "#0D6F56"
+}
+
+"TableView": {
+	"borderColor": "#A4A4A4",
+	"borderWidth": 0.5,
+	"backgroundColor": "#F2F6F6F5",
+	"height": "55.1%",
+	"left": -1,
+	"maxRowHeight": 60,
+	"right": -1,
+	"top": "45%"
+}
+
+"TableViewRow" : {
+	"backgroundColor": "transparent",
+	"height": 60
+}
+
+"Toolbar": {
+	"backgroundColor": "#F5F4F0",
+    "barColor": "#F5F4F0",
+    "borderBottom": true,
+    "borderColor": "#A4A4A4",
+    "borderTop": false,
+    "borderWidth": 1,
+    "left": -1,
+    "right": -1,
+	"tintColor": "#0D6F56",
+    "top": -44
+}

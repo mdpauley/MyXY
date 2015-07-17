@@ -1,0 +1,15 @@
+"Window": {
+    "backButtonTitle": ""
+}
+"Toolbar": {
+	"backgroundColor": "#F5F4F0",
+    "barColor": "#F5F4F0",
+    "borderBottom": true,
+    "borderColor": "#A4A4A4",
+    "borderTop": false,
+    "borderWidth": 1,
+    "left": -1,
+    "right": -1,
+	"tintColor": "#0D6F56",
+    "top": -1
+}

@@ -1,0 +1,10 @@
+<Alloy>
+    <Window title="Add XY">
+        <LeftNavButton>
+            <Button onClick="closeAdd">Cancel</Button>
+        </LeftNavButton>
+        <RightNavButton>
+            <Button enabled="false">Save</Button>
+        </RightNavButton>
+    </Window>
+</Alloy>

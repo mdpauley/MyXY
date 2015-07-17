@@ -1,0 +1,6 @@
+<Alloy>
+    <Window>
+        <View id="mapView" module="ti.map"/>
+        <Toolbar platform="ios"/>
+    </Window>
+</Alloy>

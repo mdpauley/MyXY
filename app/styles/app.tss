@@ -1,0 +1,13 @@
+"Window": {
+	"backgroundColor": "#FFFFFF",
+	"barColor": "#F5F4F0",
+	"tintColor": "#0D6F56",
+	"titleAttributes": {
+		"color": "#0C654D",
+		"font": {
+			"fontFamily": "Lato-Black",
+			"fontSize": 22
+		}
+	},
+	"translucent": false
+}
